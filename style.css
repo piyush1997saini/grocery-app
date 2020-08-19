@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background: #d7ebf6!important;
+    font-family: 'Lato', sans-serif!important;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-size: 20px!important;
+}
+.header{
+	background: #41aae3;
+	color: whitesmoke;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 20px;
+}
+.header a{
+	color: whitesmoke!important;
+}
+.icons a{
+	position: relative;
+}
+.cart:after{
+    content: "2";
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    background: #f53333;
+    border-radius: 50%;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+    padding: 8px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery{
+	padding: 5px;
+}
+.delivery a{
+	color: #534d4d;
+	font-size: 14px;
+}
+.form input{
+	font-size: 14px;
+}
+.form .input-group-text a{
+	font-size: 12px;
+}
+.categories{
+	background: whitesmoke;
+	padding: 7px;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.categories .item-category{
+	background: #0884c7;
+	margin: 4px 2px;
+	border-radius: 5px;	
+}
+.categories a{
+	text-decoration: none!important;
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.categories a:hover{
+	color: whitesmoke;
+	background: #534d4d;
+}
+.carousel-indicators{
+	bottom: -40px!important;
+}
+.carousel-indicators li{
+	width: 15px!important;	
+}
+.carousel-indicators .active{
+	background-color: #0884c7;
+}
+.products-section h5{
+	color: #02689f;
+	margin-bottom: 0!important;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+.product-details{
+	background: whitesmoke;
+}
+.product-details span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.product-details button{
+	background-color: #0884c7;
+	color: white;
+	font-weight: bold;
+	padding: 2px 30px;
+}
+.product-details span i{
+	font-size: 15px!important;
+}
